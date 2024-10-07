@@ -1,0 +1,114 @@
+/* Styles pour la page de connexion uniquement */
+.login-page {
+    background-image: url('img/virtual-innovation-screen-operations-management-business-process-and-issue-resolution-workflow-high-quality-control-2JYBRE9.jpg'); /* Chemin vers votre image */
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    height: 100vh; /* Hauteur de la page */
+    display: flex; /* Utilise flex pour centrer le contenu */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+}
+
+/* Style du formulaire */
+form {
+    width: 100%; /* Utiliser toute la largeur de l'écran pour le formulaire */
+    max-width: 400px; /* Limite la largeur maximale à 400px */
+    margin: 0 auto; /* Centrer le formulaire */
+}
+
+/* Styles pour le fieldset */
+/* Styles pour le H1 */
+h1 {
+    text-align: center; /* Centre le texte */
+    font-size: 2em; /* Taille de police du H1 */
+    margin-bottom: 20px; /* Espacement en bas */
+    color: #333; /* Couleur du texte (vous pouvez ajuster selon votre design) */
+}
+
+/* Styles pour le fieldset */
+fieldset {
+    background: rgba(255, 255, 255, 0.8); /* Fond blanc légèrement transparent */
+    border: none; /* Pas de bordure */
+    border-radius: 8px; /* Coins arrondis pour le fieldset */
+    padding: 20px; /* Espace intérieur du fieldset */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Ombre légère autour du fieldset */
+}
+
+legend {
+    font-weight: bold; /* Texte du légende en gras */
+    font-size: 1.5em; /* Augmente la taille de la police */
+    margin-bottom: 10px; /* Espacement en bas de la légende */
+    text-align: center; /* Centre le texte */
+    width: 100%; /* Prend toute la largeur disponible */
+}
+
+
+/* Style pour la légende */
+legend {
+    font-weight: bold; /* Texte du légende en gras */
+    font-size: 1.5em; /* Augmente la taille de la police */
+    margin-bottom: 10px; /* Espacement en bas de la légende */
+}
+
+/* Styles pour les champs d'input */
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Prendre toute la largeur */
+    padding: 12px; /* Espacement interne */
+    margin: 10px 0; /* Espacement entre les champs */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclut la bordure et le padding dans la largeur totale */
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #28a745; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 12px; /* Espacement interne */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main */
+    width: 100%; /* Prendre toute la largeur */
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+}
+
+/* Effet au survol pour les boutons */
+button:hover {
+    background-color: #218838; /* Couleur de fond au survol */
+}
+
+/* Styles pour le lien d'inscription */
+.register-button {
+    background-color: #007BFF; /* Couleur de fond du bouton d'inscription */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Pas de bordure */
+    padding: 10px 15px; /* Espace intérieur */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en main */
+    text-align: center; /* Centrage du texte */
+    text-decoration: none; /* Pas de soulignement */
+    width: 100%; /* Prendre toute la largeur */
+}
+
+/* Effet au survol pour le lien d'inscription */
+.register-button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
+/* Styles pour le paragraphe */
+p {
+    margin-top: 20px;
+    text-align: center; /* Centre le texte */
+}
+
+/* Styles pour les liens */
+a {
+    color: #007BFF; /* Couleur des liens */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}
